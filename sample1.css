@@ -1,0 +1,33 @@
+table {
+  width: 100%;
+}
+.category {
+  width: 50%;
+}
+
+table1 td,
+tr,
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: left;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.category:hover {
+  background-color: gray;
+  color: white;
+}
+
+.table1 tr:nth-child(even) {
+  color: green;
+  background-color: #dddddd;
+}
+td ul li:hover {
+  color: black;
+  background-color: rgb(198, 198, 140);
+}

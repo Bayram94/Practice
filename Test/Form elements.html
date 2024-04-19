@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form elements</title>
+  </head>
+  <body>
+    <form action="/users" method="post">
+      <label for="language">Choose language: </label>
+      <select id="language" name="lang">
+        <option selected disabled>Select</option>
+        <option>English</option>
+        <option>Korean</option>
+        <option>Uzbek</option>
+      </select>
+      <br />
+
+      <lable for="language">Choose programming language:</lable>
+      <select id="language" name="lang">
+        <optgroup label="Back End">
+          <option value="">NODEJS</option>
+          <option value="">PYTHON</option>
+          <option value="">PHP</option>
+        </optgroup>
+        <optgroup label="Front End">
+          <option value="">HTML</option>
+          <option value="">CSS</option>
+          <option value="">BOOTSTRAP</option>
+        </optgroup>
+      </select>
+      <br />
+      <br />
+      <label for="Message">Message</label> <br /><br />
+      <textarea name="Type here" style="width: 300px; height: 300px">
+Type here</textarea
+      >
+      <br />
+
+      <button onclick="alert ('Clicked')">Submit</button> <br />
+
+      <fieldset>
+        <legend>Please Login</legend>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="Name" /> <br />
+        <br />
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="Name" /> <br />
+        <br />
+        <button type="submit">Submit</button>
+      </fieldset>
+      <br />
+      <br />
+      <input list="lan" name="language" />
+      <datalist id="lan">
+        <option>English</option>
+        <option>Korean</option>
+        <option>Uzbek</option>
+      </datalist>
+    </form>
+  </body>
+</html>
